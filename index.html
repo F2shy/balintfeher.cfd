@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Bálint Fehér je 7-ročný chlapec zo Slovenska, ktorý od narodenia trpí spinálnou svalovou atrofiou, známej aj ako svalová dystrofia s pôvodom v chrbtici. Jeho jedinou pohybovou možnosťou je invalidný vozík. Bálint je milý, silný a vytrvalý chlapec. Týmto spôsobom sa snažíme upozorniť ľudí na túto chorobu a pomáhať Bálintovi. Viac informácií o tejto chorobe nájdetetu.">
+  <meta name="robots" content="index,follow">
+  <meta name="keywords" content="Bálint, Fehér, Fehér Bálint, Bálint Fehér, Pomoc, Donate, Fundraiser, Help, Ill child, child, SMA, sma, Spinal Muscular Atrophy, Spinraza, illness">
+  <link rel="canonical" href="https://balintfeher.cfd/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Benkovszky Tamás">
+  <meta property="og:title" content="Bálint Fehér">
+  <meta property="og:locale" content="sk-SK">
+  <meta property="og:description" content="Bálint Fehér je 7-ročný chlapec zo Slovenska, ktorý od narodenia trpí spinálnou svalovou atrofiou">
+  <meta property="og:image" content="./assets/img/balint.webp">
+  <meta property="og:image:width" content="682">
+  <meta property="og:image:height" content="641">
+  <meta property="og:image:alt" content="Bálint Fehér">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:url" content="https://balintfeher.cfd/">
+  <meta property="og:site_name" content="Bálint Fehér">
+  <title>Bálint Fehér</title>
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+
+<!-- Nucleo Icons -->
+<link href="/css/nucleo-icons.css" rel="stylesheet" />
+<link href="/css/nucleo-svg.css" rel="stylesheet" />
+
+<!-- Font Awesome Icons -->
+<script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+<link href="/css/nucleo-svg.css" rel="stylesheet" />
+
+<!-- CSS Files -->
+<style>
+  #text {
+	display: inline-block;
+	color: #2980b9;
+	border-right: 3px solid #2980b9;
+  font-size: 30px;
+
+}
+
+</style>
+
+
+<link id="pagestyle" href="/css/soft-design-system.css?version=51" rel="stylesheet" />
+</head>
+<body class="text-center">
+
+  <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+
+
+    <main role="main" class="inner cover">
+      <h1 class="cover-heading">Bálint Fehér</h1>
+      <br>
+      <div id="text"></div>
+      <br>
+      <br>
+      <p class="lead">
+        <a href="/hu/index.html"><button type="button" class="btn bg-gradient-hu w-auto me-1 mb-0"></button></a>
+        <a href="/sk/index.html"><button type="button" class="btn bg-gradient-sk w-auto me-1 mb-0"></button></a>
+        <a href="/en/index.html"><button type="button" class="btn bg-gradient-en w-auto me-1 mb-0"></button></a>
+        <a href="/de/index.html"><button type="button" class="btn bg-gradient-de w-auto me-1 mb-0"></button></a>
+      </p>
+    </main>
+    <br>
+    <footer class="py-3 bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2023 Bálint Fehér.</p>
+          </div>
+          <div class="col-md-6 text-right">
+            <a href="mailto:katka.sk.1210@gmail.com">Katarína Fehér</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+      <!-- Optional JavaScript -->
+      <script type="text/javascript">
+
+        // List of sentences
+        var _CONTENT = [ "Choose your language", "Válassz nyelvet", "Vybrať jazyk", "Wählen Sie Ihre Sprache aus."];
+        
+        // Current sentence being processed
+        var _PART = 0;
+        
+        // Character number of the current sentence being processed 
+        var _PART_INDEX = 0;
+        
+        // Holds the handle returned from setInterval
+        var _INTERVAL_VAL;
+        
+        // Element that holds the text
+        var _ELEMENT = document.querySelector("#text");
+        
+        // Implements typing effect
+        function Type() { 
+          var text =  _CONTENT[_PART].substring(0, _PART_INDEX + 1);
+          _ELEMENT.innerHTML = text;
+          _PART_INDEX++;
+        
+          // If full sentence has been displayed then start to delete the sentence after some time
+          if(text === _CONTENT[_PART]) {
+            clearInterval(_INTERVAL_VAL);
+            setTimeout(function() {
+              _INTERVAL_VAL = setInterval(Delete, 50);
+            }, 1000);
+          }
+        }
+        
+        // Implements deleting effect
+        function Delete() {
+          var text =  _CONTENT[_PART].substring(0, _PART_INDEX - 1);
+          _ELEMENT.innerHTML = text;
+          _PART_INDEX--;
+        
+          // If sentence has been deleted then start to display the next sentence
+          if(text === '') {
+            clearInterval(_INTERVAL_VAL);
+        
+            // If last sentence then display the first one, else move to the next
+            if(_PART == (_CONTENT.length - 1))
+              _PART = 0;
+            else
+              _PART++;
+            _PART_INDEX = 0;
+        
+            // Start to display the next sentence after some time
+            setTimeout(function() {
+              _INTERVAL_VAL = setInterval(Type, 100);
+            }, 200);
+          }
+        }
+        
+        // Start the typing effect on load
+        _INTERVAL_VAL = setInterval(Type, 100);
+        
+        </script>
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper-core.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    </body>
+    </html>

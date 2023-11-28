@@ -1,0 +1,203 @@
+/* Set primary color to blue */
+
+#donate-button > img {
+ width: 200px
+}
+
+.card {
+ width: 190px;
+ height: 254px;
+ background: white;
+ border-radius: 10px;
+ transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.shadow {
+ box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(190, 190, 190),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+
+
+:root {
+
+    --primary-color: #007bff;
+
+  }
+
+  .carousel-item {
+
+    height: 400px;
+
+  }
+  #text {
+    display: inline-block;
+    color: #2980b9;
+    border-right: 3px solid #2980b9;
+  }
+  
+
+  .carousel-item img {
+
+    object-fit: cover;
+
+    height: 100%;
+
+  }
+
+  
+
+  /* Navbar */
+
+  .navbar {
+
+    background: rgba(255, 255, 255, 0.8);
+
+    backdrop-filter: blur(10px);
+
+  }
+
+  
+
+  .nav-link {
+
+    color: rgba(255, 255, 255, 0.8);
+
+  }
+
+  
+
+  .nav-link:hover {
+
+    color: rgba(255, 255, 255, 1);
+
+  }
+
+  
+
+  .navbar-brand {
+
+    font-weight: bold;
+
+    color: rgba(255, 255, 255, 0.8);
+
+  }
+
+  
+
+  .navbar-brand:hover {
+
+    color: rgba(255, 255, 255, 1);
+
+  }
+
+  
+
+  
+
+  /* Jumbotron */
+
+  .jumbotron {
+
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    color: white;
+
+  }
+
+  @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+  /* Donate section */
+
+  #donate {
+
+    background-color: #f8f9fa;
+
+  }
+
+  
+
+  #donate h2 {
+
+    color: var(--primary-color);
+
+  }
+
+  button {
+    font-family: monospace;
+    background-color: #f3f7fe;
+    color: #3b82f6;
+    border: none;
+    border-radius: 8px;
+    width: 300px;
+    height: 45px;
+    transition: .3s;
+  }
+  
+  button:hover {
+    background-color: #3b82f6;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #fff;
+  }
+  
+
+  /* Contact section */
+
+  #contact {
+
+    background-color: #f8f9fa;
+
+  }
+
+  
+
+  #contact h2 {
+
+    color: var(--primary-color);
+
+  }
+
+  
+
+  /* Footer */
+
+  footer {
+
+    background-color: #343a40;
+
+    color: white;
+
+  }
+
+  
+
+  footer a {
+
+    color: white;
+
+  }
+
+  .text-sky-401 {
+    --tw-text-opacity: 1;
+    color: white;
+    background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0,255,0) 14.28%,
+                rgb(0,255,255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+    background-size: 600vw 600vw;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: slide 10s linear infinite forwards;
+  }
+
+  
