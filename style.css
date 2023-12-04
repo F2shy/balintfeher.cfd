@@ -342,6 +342,7 @@ background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 600vw 600vw;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip:text;
     animation: slide 10s linear infinite forwards;
   }
 
