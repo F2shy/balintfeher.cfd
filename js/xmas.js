@@ -1,6 +1,6 @@
 
         // Check the value of the xmas variable
-        var xmas = "on"; // Change this value as needed
+        var xmas = "off"; // Change this value as needed
     
         // Get the element to be toggled
         var lightropeList = document.querySelector('.lightrope');
